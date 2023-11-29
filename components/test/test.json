@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "drawer": "dingtalk-design-miniapp/es/drawer/index"
+  }
+}

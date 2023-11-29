@@ -1,0 +1,8 @@
+{
+  "generator-dd-application": {
+    "promptValues": {
+      "template": "mp_default",
+      "language": "javascript"
+    }
+  }
+}

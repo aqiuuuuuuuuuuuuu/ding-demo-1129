@@ -1,0 +1,21 @@
+<view>
+  <drawer
+    visible="{{true}}"
+    disableScroll="{{false}}"
+    position="bottom"
+    maskClosable="{{true}}"
+  >
+    <scroll-view
+      style="padding: 24rpx; height: calc(100vh - 100px)"
+      scroll-top="{{top}}"
+      scroll-y="{{true}}"
+      onScroll="scroll"
+    >
+      <block a:for="{{list}}">
+        <view key="{{index}}" style="padding: 24rpx; lineHeight: 40rpx; borderBottom: 1rpx solid #ccc">
+          {{index}}这是条数据
+        </view>
+      </block>
+    </scroll-view>>
+  </drawer>
+</view>
